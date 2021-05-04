@@ -7,11 +7,12 @@ import {Pricing} from './components/Pricing'
 import {Book} from './components/Book'
 import {Local} from './components/Local'
 import {Contact} from './components/Contact'
+import {NotFound} from './components/NotFound'
 
 import {Header} from './components/Header'
 
 const NavItems = [
-  {"name" : "Home" , "link" : "/home"},
+  {"name" : "Home" , "link" : "/"},
   {"name" : "The Apartment" , "link" : "/apartment"},
   {"name" : "Pricing" , "link" : "/pricing"},
   {"name" : "Book" , "link" : "/book"},
@@ -24,6 +25,9 @@ function App() {
       <Header logo={Logo} nav={NavItems} />
       <main className="content">
         <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
           <Route path="/home">
             <Home />
           </Route>
@@ -41,6 +45,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="*">
+            <NotFound />
           </Route>
         </Switch>
       </main>
