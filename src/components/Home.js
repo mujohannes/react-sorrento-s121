@@ -21,6 +21,7 @@ export function Home(props) {
                 <p>
                     Two TVs are sure to make everyone happy!  An undercover BBQ area with seating offers plenty of space to stretch out and enjoy that cup of freshly brewed coffee or a glass of wine.
                     This is the perfect place for a home away from home.
+                    
                 </p>
 
             </div>
