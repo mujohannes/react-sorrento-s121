@@ -1,15 +1,16 @@
-import {Link} from 'react-router-dom'
+import {Link, NavLink} from 'react-router-dom'
 import '../styles/Header.css'
 
 export function Header ( props ) {
     const Navigation = props.nav.map( (item) => {
         return (
-            <Link 
+            <NavLink 
                 to={item.link} 
+                activeClassName="active"
                 exact={ (item.link==="/") ? true : false } 
             >
                 {item.name}
-            </Link>
+            </NavLink>
         )
     } )
     return (

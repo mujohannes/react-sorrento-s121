@@ -21,3 +21,6 @@
     color: white;
     background-color: black;
 }
+.navigation a.active{
+    font-weight:bold;
+}
