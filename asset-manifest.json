@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-sorrento-s121/static/css/main.ff0d05ea.chunk.css",
+    "main.js": "/react-sorrento-s121/static/js/main.9ef303bb.chunk.js",
+    "main.js.map": "/react-sorrento-s121/static/js/main.9ef303bb.chunk.js.map",
+    "runtime-main.js": "/react-sorrento-s121/static/js/runtime-main.21791fde.js",
+    "runtime-main.js.map": "/react-sorrento-s121/static/js/runtime-main.21791fde.js.map",
+    "static/js/2.65ab3e09.chunk.js": "/react-sorrento-s121/static/js/2.65ab3e09.chunk.js",
+    "static/js/2.65ab3e09.chunk.js.map": "/react-sorrento-s121/static/js/2.65ab3e09.chunk.js.map",
+    "static/js/3.9e6ed69a.chunk.js": "/react-sorrento-s121/static/js/3.9e6ed69a.chunk.js",
+    "static/js/3.9e6ed69a.chunk.js.map": "/react-sorrento-s121/static/js/3.9e6ed69a.chunk.js.map",
+    "index.html": "/react-sorrento-s121/index.html",
+    "static/css/main.ff0d05ea.chunk.css.map": "/react-sorrento-s121/static/css/main.ff0d05ea.chunk.css.map",
+    "static/js/2.65ab3e09.chunk.js.LICENSE.txt": "/react-sorrento-s121/static/js/2.65ab3e09.chunk.js.LICENSE.txt",
+    "static/media/andrew-carter--YanfOGvh10-unsplash.5db9f1c6.jpg": "/react-sorrento-s121/static/media/andrew-carter--YanfOGvh10-unsplash.5db9f1c6.jpg",
+    "static/media/britt-gaiser-eNzBGf4fucc-unsplash.b3ef606b.jpg": "/react-sorrento-s121/static/media/britt-gaiser-eNzBGf4fucc-unsplash.b3ef606b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21791fde.js",
+    "static/js/2.65ab3e09.chunk.js",
+    "static/css/main.ff0d05ea.chunk.css",
+    "static/js/main.9ef303bb.chunk.js"
+  ]
+}
